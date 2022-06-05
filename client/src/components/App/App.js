@@ -1,5 +1,5 @@
 import React from 'react'
-import BusinessList from '../BuisnessList/BuisnessList';
+import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
 import './App.css';
 
