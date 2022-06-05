@@ -1,18 +1,16 @@
 import React from 'react'
+import BusinessList from '../BuisnessList/BuisnessList';
+import SearchBar from '../SearchBar/SearchBar';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <h1>
-         fuck 
-        </h1> 
-      </header>
-      
-       
-    </div>
+    <div classname="App">
+  <h1>ravenous</h1>
+  <SearchBar/>
+  <BusinessList /> 
+</div>
   );
 }
 
