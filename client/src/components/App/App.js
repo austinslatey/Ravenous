@@ -23,14 +23,20 @@ const businesses = [
   business,
   business];
 
-function App() {
-  return (
+
+class App extends React.Component() {
+  searchYelp(term, location, sortBy){
+    console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
+  }
+  render() {
+    return(
     <div classname="App">
       <h1>ravenous</h1>
-      <SearchBar />
-      <BusinessList businesses={businesses}/>
+      <SearchBar searchYelp={this.searchYelp}/>
+      <BusinessList businesses={businesses} />
     </div>
   );
+}
 }
 
 export default App;
