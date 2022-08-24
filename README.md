@@ -8,7 +8,6 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Contributions](#contributions)
-  * [Tests](#tests)
   * [Questions](#questions)
 
  
@@ -23,23 +22,16 @@
   -- As a user, I should be able to sort through restaurants using a filter
 
   ## Overview
-  ![Screenshot](./assets/Screenshot%202022-06-05%20051940.png)
+  ![Screenshot](./assets/Screenshot%202022-08-24%20000511.png)
 
   ## Description
   Creating a web app using React & Static Components (similar to Yelp).
 
   ## Installation
-  Clone repo, cd ./public , npm i, npm start
+  Clone repo, cd ./client , npm i, npm start
 
   ## Contributions
   CodeCademy
-
-  ## Tests
-  n/a
-
-  ## License 
-  none
-  
 
   ## Questions
 
